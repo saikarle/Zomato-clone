@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Investor Relations</title>
+<link rel="stylesheet" href="css/investors.css">
+
+    <link rel="shortcut icon" href="favicon.png" type="Image/png">
+
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family: Arial, sans-serif;
+}
+
+body{
+    background:#f8f8f8;
+}
+
+/* Header */
+header{
+    background:#e23744;
+    color:white;
+    padding:20px 60px;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo{
+    font-size:32px;
+    font-weight:bold;
+}
+
+nav ul{
+    list-style:none;
+    display:flex;
+    gap:30px;
+}
+
+nav ul li a{
+    text-decoration:none;
+    color:white;
+    font-size:16px;
+}
+
+/* Hero Section */
+.hero{
+    background:linear-gradient(rgba(0,0,0,0.5),
+    rgba(0,0,0,0.5)),
+    url('investor-bg.jpg');
+    background-size:cover;
+    background-position:center;
+    height:500px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    color:white;
+}
+
+.hero-content h1{
+    font-size:55px;
+    margin-bottom:20px;
+}
+
+.hero-content p{
+    font-size:22px;
+}
+
+/* Cards */
+.cards{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    padding:70px 50px;
+    flex-wrap:wrap;
+}
+
+.card{
+    background:white;
+    width:300px;
+    padding:30px;
+    border-radius:15px;
+    box-shadow:0 5px 15px rgba(0,0,0,0.1);
+    text-align:center;
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-10px);
+}
+
+.card h2{
+    color:#e23744;
+    margin-bottom:15px;
+}
+
+.card p{
+    color:#555;
+    line-height:1.6;
+}
+
+/* Financial Section */
+.financial{
+    background:white;
+    padding:70px;
+    text-align:center;
+}
+
+.financial h2{
+    color:#e23744;
+    margin-bottom:20px;
+    font-size:40px;
+}
+
+.stats{
+    display:flex;
+    justify-content:center;
+    gap:80px;
+    margin-top:40px;
+    flex-wrap:wrap;
+}
+
+.stat h3{
+    color:#e23744;
+    font-size:40px;
+}
+
+.stat p{
+    margin-top:10px;
+    color:#666;
+}
+
+/* Reports */
+.reports{
+    padding:70px;
+    text-align:center;
+}
+
+.reports h2{
+    color:#e23744;
+    margin-bottom:40px;
+}
+
+.report-btn{
+    display:inline-block;
+    margin:10px;
+    padding:15px 30px;
+    background:#e23744;
+    color:white;
+    text-decoration:none;
+    border-radius:8px;
+}
+
+.report-btn:hover{
+    background:#c62835;
+}
+
+/* Footer */
+footer{
+    background:#1c1c1c;
+    color:white;
+    text-align:center;
+    padding:25px;
+    margin-top:50px;
+}
+
+@media(max-width:768px){
+
+header{
+    flex-direction:column;
+    gap:15px;
+}
+
+.hero-content h1{
+    font-size:40px;
+}
+
+.stats{
+    gap:30px;
+}
+}
+</style>
+</head>
+<body>
+
+<header>
+    <div class="logo">zomato</div>
+
+    <nav>
+        <ul>
+            <li><a href="index.html" target="_blank">Home</a></li>
+            <li><a href="#">Financials</a></li>
+            <li><a href="#">Reports</a></li>
+            <li><a href="#">Governance</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="hero">
+    <div class="hero-content">
+        <h1>Investor Relations</h1>
+        <p>Building India's leading food and dining ecosystem.</p>
+    </div>
+</section>
+
+<section class="cards">
+
+    <div class="card">
+        <h2>Quarterly Results</h2>
+        <p>Access the latest financial reports, earnings releases and investor updates.</p>
+    </div>
+
+    <div class="card">
+        <h2>Annual Reports</h2>
+        <p>Explore company performance, governance and shareholder information.</p>
+    </div>
+
+    <div class="card">
+        <h2>Corporate Governance</h2>
+        <p>Learn about our leadership, policies and governance practices.</p>
+    </div>
+
+</section>
+
+<section class="financial">
+
+    <h2>Key Highlights</h2>
+
+    <div class="stats">
+
+        <div class="stat">
+            <h3>80M+</h3>
+            <p>Monthly Users</p>
+        </div>
+
+        <div class="stat">
+            <h3>1000+</h3>
+            <p>Cities Served</p>
+        </div>
+
+        <div class="stat">
+            <h3>3L+</h3>
+            <p>Restaurant Partners</p>
+        </div>
+
+    </div>
+
+</section>
+
+<section class="reports">
+
+    <h2>Investor Resources</h2>
+
+    <a href="#" class="report-btn">Annual Report 2025</a>
+    <a href="#" class="report-btn">Quarterly Results</a>
+    <a href="#" class="report-btn">Shareholder Information</a>
+
+</section>
+
+<footer>
+    <p>© 2026 Investor Relations. All Rights Reserved.</p>
+</footer>
+
+    <script src="js/investors.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Restaurant</title>
+    <link rel="stylesheet" href="css/add-restaurant.css">
+            <link rel="shortcut icon" href="favicon.png" type="Image/png">
+
+</head>
+<body>
+    
+
+    <header>
+
+        </nav>
+        <div class="logo">zomato</div>
+    </header>
+
+    <section class="hero">
+        <div class="overlay">
+            <h1>Partner with Zomato</h1>
+            <p>Grow your business and reach millions of customers</p>
+        </div>
+    </section>
+
+    <section class="form-section">
+        <div class="form-container">
+            <h2>Register Your Restaurant</h2>
+
+            <form>
+                <input type="text" placeholder="Restaurant Name" required>
+
+                <input type="text" placeholder="Owner Name" required>
+
+                <input type="email" placeholder="Email Address" required>
+
+                <input type="tel" placeholder="Phone Number" required>
+
+                <input type="text" placeholder="Restaurant Address" required>
+
+                <select required>
+                    <option value="">Select City</option>
+                    <option>Mumbai</option>
+                    <option>Delhi</option>
+                    <option>Pune</option>
+                    <option>Bangalore</option>
+                </select>
+
+                <textarea rows="5" placeholder="Restaurant Description"></textarea>
+
+                <button type="submit">Register Now</button>
+            </form>
+        </div>
+    </section>
+
+    <script src="js/"
+
+</body>
+</html>

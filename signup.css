@@ -1,0 +1,114 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Background */
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #e23744, #ff6b81);
+}
+
+/* Login Container */
+.login-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Login Box */
+.login-box {
+    width: 350px;
+    background: #fff;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+    text-align: center;
+}
+
+/* Logo */
+.logo {
+    font-size: 32px;
+    color: #e23744;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+}
+
+/* Tagline */
+.tagline {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 20px;
+}
+
+/* Inputs */
+form input {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    outline: none;
+    transition: 0.3s;
+}
+
+form input:focus {
+    border-color: #e23744;
+    box-shadow: 0 0 5px rgba(226, 55, 68, 0.3);
+}
+
+/* Button */
+form button {
+    width: 100%;
+    padding: 12px;
+    background: #e23744;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+form button:hover {
+    background: #c71f32;
+}
+
+/* Forgot Password */
+.extra {
+    margin-top: 10px;
+}
+
+.extra a {
+    font-size: 13px;
+    color: #e23744;
+    text-decoration: none;
+}
+
+.extra a:hover {
+    text-decoration: underline;
+}
+
+/* Signup */
+.signup {
+    margin-top: 15px;
+    font-size: 14px;
+}
+
+.signup a {
+    color: #e23744;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.signup a:hover {
+    text-decoration: underline;
+}
